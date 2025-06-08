@@ -21,7 +21,7 @@ document.querySelectorAll('.btnDetail').forEach(item=> {
         document.querySelector('.modalHarga').innerHTML = harga;
         
         const nohp = '6282135267451';
-        let pesan = `https://api.whatsapp.com/send?phone=${nohp}&text= Halo Kak Arkan, saya mau beli buku yang berjudul *${judul}* apakah stok nya masih ada? Dan untuk metode pembayarannya bagaimana ya kak?`;
+        let pesan = `https://api.whatsapp.com/send?phone=${nohp}&text= Halo Admin, saya mau beli buku yang berjudul *${judul}* apakah stok nya masih ada? Dan untuk metode pembayarannya bagaimana ya kak?`;
 
         document.querySelector('.btnBeli').href = pesan;
     });
